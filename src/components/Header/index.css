@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202020;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.listed-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.item-1 {
+  margin-right: 10px;
+}
+.item-2 {
+  margin-left: 10px;
+}
+.button-header {
+  margin-top: 20px;
+}
+.button-logout {
+  border: 0px;
+  background-color: #6366f1;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
